@@ -1,5 +1,14 @@
 # proactive-codex
 
+
+## Personalize before use
+
+Replace placeholders with **your** machine values — do not copy someone else's:
+
+- **iPad name**: Settings → General → About → Name, then `SidecarLauncher devices`, set `SIDECAR_DEVICE_NAME` in `sidecar/config.env`.
+- **Mac username / paths**: in LaunchAgents plists, replace every `REPLACE_ME` with your macOS account name (the folder under `/Users/`).
+- Never commit a filled `config.env`.
+
 Open-source recipe for **initiative-first** technical assistants:
 
 1. Decide and act (ask only for real decisions).

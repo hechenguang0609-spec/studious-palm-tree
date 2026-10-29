@@ -1,5 +1,14 @@
 # Mac mini wired Sidecar auto-mirror (reference)
 
+
+## Personalize before use
+
+Replace placeholders with **your** machine values — do not copy someone else's:
+
+- **iPad name**: Settings → General → About → Name, then `SidecarLauncher devices`, set `SIDECAR_DEVICE_NAME` in `sidecar/config.env`.
+- **Mac username / paths**: in LaunchAgents plists, replace every `REPLACE_ME` with your macOS account name (the folder under `/Users/`).
+- Never commit a filled `config.env`.
+
 Plug USB → unlock iPad → **native Sidecar as main display + hardware mirror**.
 
 Keeps **Yam Display** running (needed for stable mirror). Never disconnects a healthy Sidecar session. Hotkey is optional fallback.

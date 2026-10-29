@@ -7,7 +7,7 @@
   <array>
     <string>/usr/bin/open</string>
     <string>-ga</string>
-    <string>/Users/ggb/Applications/SidecarHotkey.app</string>
+    <string>/Users/REPLACE_ME/Applications/SidecarHotkey.app</string>
   </array>
   <key>RunAtLoad</key><true/>
 </dict>
